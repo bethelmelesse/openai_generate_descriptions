@@ -5,7 +5,7 @@ import json
 from tqdm import tqdm
 
 
-openai.api_key = "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"
+openai.api_key = "insert key here"
 
 read_path = "./class_descrs/cifar/s2_unseen_classes/cifar_classnames_notemplate.labels"
 WRITE_PATH = "./openai_descrs/desc.json"
